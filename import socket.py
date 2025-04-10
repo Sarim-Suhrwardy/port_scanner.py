@@ -39,7 +39,7 @@ def main():
     try:
         ip = socket.gethostbyname(target)
     except socket.gaierror:
-        print("❌ Invalid IP or domain.")
+        print(" Invalid IP or domain.")
         return
 
     print(f"\nScanning {ip}...\n")
