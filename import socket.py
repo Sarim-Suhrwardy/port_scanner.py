@@ -32,7 +32,7 @@ def scan_port(ip, port):
 
 # Main scanner
 def main():
-    print("🔎 Basic Port Scanner 🔎")
+    print(" Basic Port Scanner ")
     target = input("Enter IP address or domain: ").strip()
 
     # Resolve domain name to IP if needed
