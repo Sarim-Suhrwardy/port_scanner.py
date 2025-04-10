@@ -53,7 +53,7 @@ def main():
     for thread in threads:
         thread.join()
 
-    print("\n✅ Scan complete.")
+    print("\n Scan complete.")
 
 if __name__ == "__main__":
     main()
